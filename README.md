@@ -89,16 +89,11 @@ sudo apt install python3-scapy -y
 
 Las evidencias del laboratorio deben almacenarse en el siguiente directorio:
 
-```
-/images
-```
+Esta es la topologia mia en pnet 
+<img width="1287" height="775" alt="Screenshot_2" src="https://github.com/user-attachments/assets/2e905530-8be2-41d6-91b9-07b68b043849" />
+Aqui ya tenemos la ip de la victima 
+<img width="1069" height="602" alt="Screenshot_14" src="https://github.com/user-attachments/assets/ff1c7310-fd96-4a03-82be-b9aafd2d9695" />
 
-Ejemplos de evidencias recomendadas:
-- Cliente obteniendo configuración DHCP maliciosa
-- Capturas de tráfico DHCP (DHCP Offer / DHCP ACK)
-- Ejecución del script en la máquina atacante
-
----
 
 ## 7. Medidas de Mitigación
 
