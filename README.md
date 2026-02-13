@@ -1,4 +1,4 @@
-# Ataque DHCP Spoofing  
+# Ataque DHCP-Spoofing  
 ## Documentación Técnica Profesional
 
 ---
@@ -50,7 +50,7 @@ El laboratorio se basa en una red LAN simple compuesta por los siguientes elemen
 |------------|------------|--------------|
 | Router legítimo | Gateway autorizado de la red | 192.168.1.1 |
 | Host víctima | Cliente DHCP | Asignada dinámicamente |
-| Atacante | Kali Linux (DHCP falso) | 192.168.1.200 |
+| Atacante | Kali Linux (DHCP falso) | 192.168.1.100 |
 | Switch | Dispositivo de Capa 2 | VLAN 1 |
 
 **VLAN utilizada:** VLAN 1 (por defecto)
@@ -60,7 +60,7 @@ El laboratorio se basa en una red LAN simple compuesta por los siguientes elemen
 ## 4. Parámetros Utilizados
 
 - Interfaz de red: `eth0`
-- Gateway falso: `192.168.1.200`
+- Gateway falso: `192.168.1.100`
 - Servidor DNS malicioso: Controlado por el atacante
 - Alcance DHCP: Configurado para responder antes que el servidor legítimo
 
@@ -134,8 +134,8 @@ Esta herramienta debe utilizarse **únicamente** para:
 
 ## 9. Autor
 
-**Max (Reily Castillo Del Rosario)**  
-Estudiante de Ciberseguridad  
+Reily Castillo Del Rosario
+Estudiante de seguridad informatica  
 República Dominicana  
 
 ---
